@@ -1,0 +1,120 @@
+/* This file includes the existing CSS you provided, plus new icon styles */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #0f2027;
+    background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dashboard-container {
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .data-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .data-icon {
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #0dcaf0;
+    margin-right: 15px;
+  }
+  
+  .data-details {
+    flex: 1;
+  }
+  
+  .data-label {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+  
+  .data-value {
+    font-size: 1.3rem;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 5px;
+  }
+  
+  hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  
+  /* New CSS-based icon styles */
+  .globe-icon::before {
+    content: "🌐";
+  }
+  
+  .location-icon::before {
+    content: "📍";
+  }
+  
+  .wifi-icon::before {
+    content: "📡";
+  }
+  
+  .info-icon::before {
+    content: "ℹ️";
+    margin-right: 5px;
+  }
+  
+  
