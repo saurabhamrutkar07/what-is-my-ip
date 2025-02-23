@@ -1,5 +1,3 @@
-Certainly! Here’s a project description that you can use for the `README.md` file. It includes a brief introduction, a use case, and addresses a potential problem:
-
 ---
 
 # IP Info Dashboard
