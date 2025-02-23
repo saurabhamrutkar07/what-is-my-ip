@@ -5,8 +5,8 @@ Certainly! Here’s a project description that you can use for the `README.md` f
 # IP Info Dashboard
 
 Here’s a preview of what the application looks like:
-
-
+![App Screenshot](frontend/assets/screencapture-localhost-3000-2025-02-23-11_49_38.png)
+![App Screenshot](frontend/assets/screencapture-localhost-3000-2025-02-23-11_49_48.png)
 
 ## Introduction
 
@@ -27,6 +27,7 @@ In many scenarios, developers or users may need to retrieve IP-related details s
 - **IP Address Management**: This tool can assist in identifying and tracking network devices by their IP addresses.
 
 This app is particularly useful for:
+
 - System administrators who need to view connection data quickly.
 - Developers who require access to IP information for debugging or setting up network-related features in their applications.
 - Anyone curious about their public and local IP and their geographical location.
