@@ -74,5 +74,3 @@ By combining **FastAPI** for the backend and **React** for the frontend, this pr
 6. Open your browser and visit `http://localhost:3000` to view the dashboard.
 
 ---
-
-Feel free to modify the content to better suit your specific needs.
